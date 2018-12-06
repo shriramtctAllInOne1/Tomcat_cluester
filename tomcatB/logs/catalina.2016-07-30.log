@@ -1,0 +1,378 @@
+Jul 30, 2016 9:19:25 PM org.apache.tomcat.util.digester.Digester endElement
+WARNING:   No rules found matching 'Server/Service/Engine/Engine/Cluster'.
+Jul 30, 2016 9:19:25 PM org.apache.tomcat.util.digester.Digester endElement
+WARNING:   No rules found matching 'Server/Service/Engine/Engine/Realm/Realm'.
+Jul 30, 2016 9:19:25 PM org.apache.tomcat.util.digester.Digester endElement
+WARNING:   No rules found matching 'Server/Service/Engine/Engine/Realm'.
+Jul 30, 2016 9:19:25 PM org.apache.tomcat.util.digester.Digester endElement
+WARNING:   No rules found matching 'Server/Service/Engine/Engine/Host/Valve'.
+Jul 30, 2016 9:19:25 PM org.apache.tomcat.util.digester.Digester endElement
+WARNING:   No rules found matching 'Server/Service/Engine/Engine/Host'.
+Jul 30, 2016 9:19:25 PM org.apache.tomcat.util.digester.Digester endElement
+WARNING:   No rules found matching 'Server/Service/Engine/Engine'.
+Jul 30, 2016 9:19:25 PM org.apache.tomcat.util.digester.Digester fatalError
+SEVERE: Parse Fatal Error at line 143 column 5: The element type "Engine" must be terminated by the matching end-tag "</Engine>".
+org.xml.sax.SAXParseException; systemId: file:/D:/Tomcat_Server/Tomcat_cluester/tomcatB/conf/server.xml; lineNumber: 143; columnNumber: 5; The element type "Engine" must be terminated by the matching end-tag "</Engine>".
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:198)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:177)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:441)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:368)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1436)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanEndElement(XMLDocumentFragmentScannerImpl.java:1749)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2973)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:606)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:510)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:848)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:777)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1213)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:648)
+	at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1555)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:616)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:667)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:253)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:427)
+
+Jul 30, 2016 9:19:25 PM org.apache.catalina.startup.Catalina load
+WARNING: Catalina.start using conf/server.xml: The element type "Engine" must be terminated by the matching end-tag "</Engine>".
+Jul 30, 2016 9:19:25 PM org.apache.tomcat.util.digester.Digester endElement
+WARNING:   No rules found matching 'Server/Service/Engine/Engine/Cluster'.
+Jul 30, 2016 9:19:25 PM org.apache.tomcat.util.digester.Digester endElement
+WARNING:   No rules found matching 'Server/Service/Engine/Engine/Realm/Realm'.
+Jul 30, 2016 9:19:25 PM org.apache.tomcat.util.digester.Digester endElement
+WARNING:   No rules found matching 'Server/Service/Engine/Engine/Realm'.
+Jul 30, 2016 9:19:25 PM org.apache.tomcat.util.digester.Digester endElement
+WARNING:   No rules found matching 'Server/Service/Engine/Engine/Host/Valve'.
+Jul 30, 2016 9:19:25 PM org.apache.tomcat.util.digester.Digester endElement
+WARNING:   No rules found matching 'Server/Service/Engine/Engine/Host'.
+Jul 30, 2016 9:19:25 PM org.apache.tomcat.util.digester.Digester endElement
+WARNING:   No rules found matching 'Server/Service/Engine/Engine'.
+Jul 30, 2016 9:19:25 PM org.apache.tomcat.util.digester.Digester fatalError
+SEVERE: Parse Fatal Error at line 143 column 5: The element type "Engine" must be terminated by the matching end-tag "</Engine>".
+org.xml.sax.SAXParseException; systemId: file:/D:/Tomcat_Server/Tomcat_cluester/tomcatB/conf/server.xml; lineNumber: 143; columnNumber: 5; The element type "Engine" must be terminated by the matching end-tag "</Engine>".
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:198)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:177)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:441)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:368)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1436)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanEndElement(XMLDocumentFragmentScannerImpl.java:1749)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2973)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:606)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:510)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:848)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:777)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1213)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:648)
+	at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1555)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:616)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:681)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:294)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:428)
+
+Jul 30, 2016 9:19:25 PM org.apache.catalina.startup.Catalina load
+WARNING: Catalina.start using conf/server.xml: The element type "Engine" must be terminated by the matching end-tag "</Engine>".
+Jul 30, 2016 9:19:25 PM org.apache.catalina.startup.Catalina start
+SEVERE: Cannot start server. Server instance is not configured.
+Jul 30, 2016 9:24:56 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version:        Apache Tomcat/7.0.70
+Jul 30, 2016 9:24:56 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          Jun 15 2016 16:27:45 UTC
+Jul 30, 2016 9:24:56 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server number:         7.0.70.0
+Jul 30, 2016 9:24:56 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Windows 7
+Jul 30, 2016 9:24:56 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            6.1
+Jul 30, 2016 9:24:56 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+Jul 30, 2016 9:24:56 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             C:\Program Files\Java\jdk1.7.0_79\jre
+Jul 30, 2016 9:24:56 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.7.0_79-b15
+Jul 30, 2016 9:24:56 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+Jul 30, 2016 9:24:56 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         D:\Tomcat_Server\Tomcat_cluester\tomcatB
+Jul 30, 2016 9:24:56 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         D:\Tomcat_Server\Tomcat_cluester\tomcatB
+Jul 30, 2016 9:24:56 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+Jul 30, 2016 9:24:56 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=D:\Tomcat_Server\Tomcat_cluester\tomcatB\conf\logging.properties
+Jul 30, 2016 9:24:56 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+Jul 30, 2016 9:24:56 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.endorsed.dirs=D:\Tomcat_Server\Tomcat_cluester\tomcatB\endorsed
+Jul 30, 2016 9:24:56 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=D:\Tomcat_Server\Tomcat_cluester\tomcatB
+Jul 30, 2016 9:24:56 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=D:\Tomcat_Server\Tomcat_cluester\tomcatB
+Jul 30, 2016 9:24:56 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=D:\Tomcat_Server\Tomcat_cluester\tomcatB\temp
+Jul 30, 2016 9:24:56 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\Java\jdk1.7.0_79\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;c:\Oracle\product\11.2.0\client_1\bin;C:\windows\system32;C:\windows;C:\Program Files\Java\jdk1.7.0_79\bin;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Skype\Phone\;C:\apache-maven-3.3.9\bin;.
+Jul 30, 2016 9:24:56 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8082"]
+Jul 30, 2016 9:24:56 PM org.apache.coyote.AbstractProtocol init
+SEVERE: Failed to initialize end point associated with ProtocolHandler ["http-bio-8082"]
+java.net.BindException: Address already in use: JVM_Bind <null>:8082
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:413)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:650)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:435)
+	at org.apache.coyote.http11.AbstractHttp11JsseProtocol.init(AbstractHttp11JsseProtocol.java:119)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:978)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:560)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:838)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:642)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:667)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:253)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:427)
+Caused by: java.net.BindException: Address already in use: JVM_Bind
+	at java.net.DualStackPlainSocketImpl.bind0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketBind(DualStackPlainSocketImpl.java:106)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:376)
+	at java.net.PlainSocketImpl.bind(PlainSocketImpl.java:190)
+	at java.net.ServerSocket.bind(ServerSocket.java:376)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at java.net.ServerSocket.<init>(ServerSocket.java:181)
+	at org.apache.tomcat.util.net.DefaultServerSocketFactory.createSocket(DefaultServerSocketFactory.java:49)
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:400)
+	... 17 more
+
+Jul 30, 2016 9:24:56 PM org.apache.catalina.core.StandardService initInternal
+SEVERE: Failed to initialize connector [Connector[HTTP/1.1-8082]]
+org.apache.catalina.LifecycleException: Failed to initialize component [Connector[HTTP/1.1-8082]]
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:106)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:560)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:838)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:642)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:667)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:253)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:427)
+Caused by: org.apache.catalina.LifecycleException: Protocol handler initialization failed
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:980)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	... 12 more
+Caused by: java.net.BindException: Address already in use: JVM_Bind <null>:8082
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:413)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:650)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:435)
+	at org.apache.coyote.http11.AbstractHttp11JsseProtocol.init(AbstractHttp11JsseProtocol.java:119)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:978)
+	... 13 more
+Caused by: java.net.BindException: Address already in use: JVM_Bind
+	at java.net.DualStackPlainSocketImpl.bind0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketBind(DualStackPlainSocketImpl.java:106)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:376)
+	at java.net.PlainSocketImpl.bind(PlainSocketImpl.java:190)
+	at java.net.ServerSocket.bind(ServerSocket.java:376)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at java.net.ServerSocket.<init>(ServerSocket.java:181)
+	at org.apache.tomcat.util.net.DefaultServerSocketFactory.createSocket(DefaultServerSocketFactory.java:49)
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:400)
+	... 17 more
+
+Jul 30, 2016 9:24:56 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8209"]
+Jul 30, 2016 9:24:56 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 728 ms
+Jul 30, 2016 9:24:56 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Jul 30, 2016 9:24:56 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.70
+Jul 30, 2016 9:24:56 PM org.apache.catalina.ha.tcp.SimpleTcpCluster startInternal
+INFO: Cluster is about to start
+Jul 30, 2016 9:24:56 PM org.apache.catalina.tribes.transport.ReceiverBase bind
+INFO: Receiver Server Socket bound to:/192.168.249.202:4001
+Jul 30, 2016 9:24:56 PM org.apache.catalina.tribes.util.UUIDGenerator <clinit>
+INFO: Creation of SecureRandom instance for UUID generation using [SHA1PRNG] took [116] milliseconds.
+Jul 30, 2016 9:24:56 PM org.apache.catalina.tribes.membership.McastServiceImpl setupSocket
+INFO: Setting cluster mcast soTimeout to 500
+Jul 30, 2016 9:24:56 PM org.apache.catalina.tribes.membership.McastServiceImpl waitForMembers
+INFO: Sleeping for 1000 milliseconds to establish cluster membership, start level:4
+Jul 30, 2016 9:24:56 PM org.apache.catalina.ha.tcp.SimpleTcpCluster memberAdded
+INFO: Replication member added:org.apache.catalina.tribes.membership.MemberImpl[tcp://{192, 168, 249, 202}:4000,{192, 168, 249, 202},4000, alive=10518, securePort=-1, UDP Port=-1, id={112 109 -100 -81 25 -52 66 113 -89 41 -16 -85 75 35 100 -74 }, payload={}, command={}, domain={}, ]
+Jul 30, 2016 9:24:57 PM org.apache.catalina.tribes.membership.McastServiceImpl waitForMembers
+INFO: Done sleeping, membership established, start level:4
+Jul 30, 2016 9:24:57 PM org.apache.catalina.tribes.membership.McastServiceImpl waitForMembers
+INFO: Sleeping for 1000 milliseconds to establish cluster membership, start level:8
+Jul 30, 2016 9:24:57 PM org.apache.catalina.tribes.io.BufferPool getBufferPool
+INFO: Created a buffer pool with max size:104857600 bytes of type:org.apache.catalina.tribes.io.BufferPool15Impl
+Jul 30, 2016 9:24:58 PM org.apache.catalina.tribes.membership.McastServiceImpl waitForMembers
+INFO: Done sleeping, membership established, start level:8
+Jul 30, 2016 9:24:58 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory D:\Tomcat_Server\Tomcat_cluester\tomcatB\webapps\cluster
+Jul 30, 2016 9:24:59 PM org.apache.catalina.ha.session.DeltaManager startInternal
+INFO: Register manager localhost#/cluster to cluster element Engine with name Catalina
+Jul 30, 2016 9:24:59 PM org.apache.catalina.ha.session.DeltaManager startInternal
+INFO: Starting clustering manager at localhost#/cluster
+Jul 30, 2016 9:24:59 PM org.apache.catalina.ha.session.DeltaManager getAllClusterSessions
+INFO: Manager [localhost#/cluster], requesting session state from org.apache.catalina.tribes.membership.MemberImpl[tcp://{192, 168, 249, 202}:4000,{192, 168, 249, 202},4000, alive=13018, securePort=-1, UDP Port=-1, id={112 109 -100 -81 25 -52 66 113 -89 41 -16 -85 75 35 100 -74 }, payload={}, command={}, domain={}, ]. This operation will timeout if no session state has been received within 60 seconds.
+Jul 30, 2016 9:24:59 PM org.apache.catalina.ha.session.DeltaManager waitForSendAllSessions
+INFO: Manager [localhost#/cluster]; session state send at 7/30/16 9:24 PM received in 145 ms.
+Jul 30, 2016 9:24:59 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory D:\Tomcat_Server\Tomcat_cluester\tomcatB\webapps\cluster has finished in 642 ms
+Jul 30, 2016 9:24:59 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory D:\Tomcat_Server\Tomcat_cluester\tomcatB\webapps\docs
+Jul 30, 2016 9:24:59 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory D:\Tomcat_Server\Tomcat_cluester\tomcatB\webapps\docs has finished in 64 ms
+Jul 30, 2016 9:24:59 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory D:\Tomcat_Server\Tomcat_cluester\tomcatB\webapps\examples
+Jul 30, 2016 9:25:00 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory D:\Tomcat_Server\Tomcat_cluester\tomcatB\webapps\examples has finished in 535 ms
+Jul 30, 2016 9:25:00 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory D:\Tomcat_Server\Tomcat_cluester\tomcatB\webapps\host-manager
+Jul 30, 2016 9:25:00 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory D:\Tomcat_Server\Tomcat_cluester\tomcatB\webapps\host-manager has finished in 70 ms
+Jul 30, 2016 9:25:00 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory D:\Tomcat_Server\Tomcat_cluester\tomcatB\webapps\manager
+Jul 30, 2016 9:25:00 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory D:\Tomcat_Server\Tomcat_cluester\tomcatB\webapps\manager has finished in 63 ms
+Jul 30, 2016 9:25:00 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory D:\Tomcat_Server\Tomcat_cluester\tomcatB\webapps\ROOT
+Jul 30, 2016 9:25:00 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory D:\Tomcat_Server\Tomcat_cluester\tomcatB\webapps\ROOT has finished in 58 ms
+Jul 30, 2016 9:25:00 PM org.apache.catalina.ha.session.JvmRouteBinderValve startInternal
+INFO: JvmRouteBinderValve started
+Jul 30, 2016 9:25:00 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8209"]
+Jul 30, 2016 9:25:00 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 3718 ms
+Jul 30, 2016 9:25:32 PM org.apache.catalina.ha.tcp.SimpleTcpCluster memberAdded
+INFO: Replication member added:org.apache.catalina.tribes.membership.MemberImpl[tcp://{192, 168, 249, 202}:4002,{192, 168, 249, 202},4002, alive=1007, securePort=-1, UDP Port=-1, id={101 81 -30 61 10 -120 71 -74 -102 58 39 -107 109 47 -78 -83 }, payload={}, command={}, domain={}, ]
+Jul 30, 2016 9:26:57 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version:        Apache Tomcat/7.0.70
+Jul 30, 2016 9:26:57 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          Jun 15 2016 16:27:45 UTC
+Jul 30, 2016 9:26:57 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server number:         7.0.70.0
+Jul 30, 2016 9:26:57 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Windows 7
+Jul 30, 2016 9:26:57 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            6.1
+Jul 30, 2016 9:26:57 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+Jul 30, 2016 9:26:57 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             C:\Program Files\Java\jdk1.7.0_79\jre
+Jul 30, 2016 9:26:57 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.7.0_79-b15
+Jul 30, 2016 9:26:57 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+Jul 30, 2016 9:26:57 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         D:\Tomcat_Server\Tomcat_cluester\tomcatB
+Jul 30, 2016 9:26:57 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         D:\Tomcat_Server\Tomcat_cluester\tomcatB
+Jul 30, 2016 9:26:57 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+Jul 30, 2016 9:26:57 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=D:\Tomcat_Server\Tomcat_cluester\tomcatB\conf\logging.properties
+Jul 30, 2016 9:26:57 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+Jul 30, 2016 9:26:57 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.endorsed.dirs=D:\Tomcat_Server\Tomcat_cluester\tomcatB\endorsed
+Jul 30, 2016 9:26:57 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=D:\Tomcat_Server\Tomcat_cluester\tomcatB
+Jul 30, 2016 9:26:57 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=D:\Tomcat_Server\Tomcat_cluester\tomcatB
+Jul 30, 2016 9:26:57 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=D:\Tomcat_Server\Tomcat_cluester\tomcatB\temp
+Jul 30, 2016 9:26:57 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\Java\jdk1.7.0_79\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;c:\Oracle\product\11.2.0\client_1\bin;C:\windows\system32;C:\windows;C:\Program Files\Java\jdk1.7.0_79\bin;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Skype\Phone\;C:\apache-maven-3.3.9\bin;.
+Jul 30, 2016 9:26:57 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8084"]
+Jul 30, 2016 9:26:57 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8209"]
+Jul 30, 2016 9:26:57 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 624 ms
+Jul 30, 2016 9:26:57 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Jul 30, 2016 9:26:57 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.70
+Jul 30, 2016 9:26:57 PM org.apache.catalina.ha.tcp.SimpleTcpCluster startInternal
+INFO: Cluster is about to start
+Jul 30, 2016 9:26:57 PM org.apache.catalina.tribes.transport.ReceiverBase bind
+INFO: Receiver Server Socket bound to:/192.168.249.202:4001
+Jul 30, 2016 9:26:57 PM org.apache.catalina.tribes.util.UUIDGenerator <clinit>
+INFO: Creation of SecureRandom instance for UUID generation using [SHA1PRNG] took [107] milliseconds.
+Jul 30, 2016 9:26:57 PM org.apache.catalina.tribes.membership.McastServiceImpl setupSocket
+INFO: Setting cluster mcast soTimeout to 500
+Jul 30, 2016 9:26:57 PM org.apache.catalina.tribes.membership.McastServiceImpl waitForMembers
+INFO: Sleeping for 1000 milliseconds to establish cluster membership, start level:4
+Jul 30, 2016 9:26:57 PM org.apache.catalina.ha.tcp.SimpleTcpCluster memberAdded
+INFO: Replication member added:org.apache.catalina.tribes.membership.MemberImpl[tcp://{192, 168, 249, 202}:4000,{192, 168, 249, 202},4000, alive=7518, securePort=-1, UDP Port=-1, id={-69 124 4 9 -68 96 68 -83 -103 107 -38 120 -93 82 78 59 }, payload={}, command={}, domain={}, ]
+Jul 30, 2016 9:26:58 PM org.apache.catalina.tribes.membership.McastServiceImpl waitForMembers
+INFO: Done sleeping, membership established, start level:4
+Jul 30, 2016 9:26:58 PM org.apache.catalina.tribes.membership.McastServiceImpl waitForMembers
+INFO: Sleeping for 1000 milliseconds to establish cluster membership, start level:8
+Jul 30, 2016 9:26:58 PM org.apache.catalina.tribes.io.BufferPool getBufferPool
+INFO: Created a buffer pool with max size:104857600 bytes of type:org.apache.catalina.tribes.io.BufferPool15Impl
+Jul 30, 2016 9:26:59 PM org.apache.catalina.tribes.membership.McastServiceImpl waitForMembers
+INFO: Done sleeping, membership established, start level:8
+Jul 30, 2016 9:26:59 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory D:\Tomcat_Server\Tomcat_cluester\tomcatB\webapps\cluster
+Jul 30, 2016 9:26:59 PM org.apache.catalina.ha.session.DeltaManager startInternal
+INFO: Register manager localhost#/cluster to cluster element Engine with name Catalina
+Jul 30, 2016 9:26:59 PM org.apache.catalina.ha.session.DeltaManager startInternal
+INFO: Starting clustering manager at localhost#/cluster
+Jul 30, 2016 9:26:59 PM org.apache.catalina.ha.session.DeltaManager getAllClusterSessions
+INFO: Manager [localhost#/cluster], requesting session state from org.apache.catalina.tribes.membership.MemberImpl[tcp://{192, 168, 249, 202}:4000,{192, 168, 249, 202},4000, alive=9518, securePort=-1, UDP Port=-1, id={-69 124 4 9 -68 96 68 -83 -103 107 -38 120 -93 82 78 59 }, payload={}, command={}, domain={}, ]. This operation will timeout if no session state has been received within 60 seconds.
+Jul 30, 2016 9:26:59 PM org.apache.catalina.ha.session.DeltaManager waitForSendAllSessions
+INFO: Manager [localhost#/cluster]; session state send at 7/30/16 9:26 PM received in 107 ms.
+Jul 30, 2016 9:26:59 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory D:\Tomcat_Server\Tomcat_cluester\tomcatB\webapps\cluster has finished in 545 ms
+Jul 30, 2016 9:26:59 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory D:\Tomcat_Server\Tomcat_cluester\tomcatB\webapps\docs
+Jul 30, 2016 9:26:59 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory D:\Tomcat_Server\Tomcat_cluester\tomcatB\webapps\docs has finished in 54 ms
+Jul 30, 2016 9:26:59 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory D:\Tomcat_Server\Tomcat_cluester\tomcatB\webapps\examples
+Jul 30, 2016 9:27:00 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory D:\Tomcat_Server\Tomcat_cluester\tomcatB\webapps\examples has finished in 284 ms
+Jul 30, 2016 9:27:00 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory D:\Tomcat_Server\Tomcat_cluester\tomcatB\webapps\host-manager
+Jul 30, 2016 9:27:00 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory D:\Tomcat_Server\Tomcat_cluester\tomcatB\webapps\host-manager has finished in 76 ms
+Jul 30, 2016 9:27:00 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory D:\Tomcat_Server\Tomcat_cluester\tomcatB\webapps\manager
+Jul 30, 2016 9:27:00 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory D:\Tomcat_Server\Tomcat_cluester\tomcatB\webapps\manager has finished in 62 ms
+Jul 30, 2016 9:27:00 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory D:\Tomcat_Server\Tomcat_cluester\tomcatB\webapps\ROOT
+Jul 30, 2016 9:27:00 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory D:\Tomcat_Server\Tomcat_cluester\tomcatB\webapps\ROOT has finished in 48 ms
+Jul 30, 2016 9:27:00 PM org.apache.catalina.ha.session.JvmRouteBinderValve startInternal
+INFO: JvmRouteBinderValve started
+Jul 30, 2016 9:27:00 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8084"]
+Jul 30, 2016 9:27:00 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8209"]
+Jul 30, 2016 9:27:00 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 3297 ms
+Jul 30, 2016 9:27:09 PM org.apache.catalina.ha.tcp.SimpleTcpCluster memberAdded
+INFO: Replication member added:org.apache.catalina.tribes.membership.MemberImpl[tcp://{192, 168, 249, 202}:4002,{192, 168, 249, 202},4002, alive=1007, securePort=-1, UDP Port=-1, id={-28 -110 -2 18 71 21 75 24 -89 70 101 34 100 89 9 10 }, payload={}, command={}, domain={}, ]
+Jul 30, 2016 9:51:06 PM org.apache.catalina.tribes.transport.nio.NioReplicationTask run
+WARNING: IOException in replication worker, unable to drain channel. Probable cause: Keep alive socket closed[An existing connection was forcibly closed by the remote host].
+Jul 30, 2016 9:51:09 PM org.apache.catalina.tribes.group.interceptors.TcpFailureDetector memberDisappeared
+INFO: Received memberDisappeared[org.apache.catalina.tribes.membership.MemberImpl[tcp://{192, 168, 249, 202}:4002,{192, 168, 249, 202},4002, alive=1438087, securePort=-1, UDP Port=-1, id={-28 -110 -2 18 71 21 75 24 -89 70 101 34 100 89 9 10 }, payload={}, command={}, domain={}, ]] message. Will verify.
